@@ -8,6 +8,7 @@
 a {
   text-decoration: none;
   color: #333;
+  cursor: pointer;
 }
 
 ul>li:nth-child(3) strong {
@@ -161,6 +162,14 @@ body {
   margin-left: 120px;
 }
 
+.main .intro p:last-child {
+  margin-top: 5px;
+}
+
+.main .intro p:last-child strong {
+  color: #e74c3c;
+}
+
 .section .pill {
   float: left;
   margin-top: 5px;
@@ -233,10 +242,6 @@ body {
   .aside .user::after {
     border-right-width: 100px;
     border-left-width: 100px;
-  }
-
-  .aside .skills {
-    background: #1abc9c;
   }
 
   .pill {
